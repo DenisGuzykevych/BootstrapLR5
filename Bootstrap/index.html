@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ресторан "LERO"</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Comfortaa', sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+
+    img, .card {
+      border-radius: 15px;
+    }
+
+    .navbar {
+      border-radius: 15px;
+    }
+
+    .jumbotron {
+      background-color: #000;
+      color: #fff;
+      border-radius: 15px;
+    }
+
+    .footer {
+      background-color: #000;
+      color: #fff;
+      border-radius: 15px;
+    }
+
+    .product {
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .product:hover {
+      background-color: #e9ecef;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">LERO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Меню</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Замовлення</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Про нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакти</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="jumbotron">
+    <div class="container text-center">
+      <h1 class="display-4">Ласкаво просимо в ресторан "LERO"</h1>
+      <p class="lead">Насолоджуйтесь найкращими стравами та атмосферою!</p>
+    </div>
+  </header>
+
+  <section class="container my-5">
+    <h1>Піца</h1>
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="product">
+          <img src="/Images/Pizza/Снимок экрана 2023-04-13 124659.png" alt="Страва 1" style="height: 310px; width: 310px;">
+          <h5 class="mt-3">Моцарела</h5>
+          <p class="text-muted">Ціна: $10</p>
+          <p>Піца Моцарела</p>
+          <a href="#" class="btn btn-dark">Детальніше</a>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="product">
+          <img src="/Images/Pizza/Снимок экрана 2023-04-13 124719.png" alt="Страва 2" style="height: 310px; width: 310px;">
+          <h5 class="mt-3">Сирна</h5>
+          <p class="text-muted">Ціна: 230грн</p>
+          <p>Сирна піца</p>
+          <a href="#" class="btn btn-dark">Детальніше</a>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="product">
+          <img src="/Images/Pizza/Снимок экрана 2023-04-13 124903.png" alt="Страва 3" style="height: 310px; width: 310px;">
+          <h5 class="mt-3">Вегетаріанська</h5>
+          <p class="text-muted">Ціна: 200грн</p>
+          <p>Вегетаріанська піца</p>
+          <a href="#" class="btn btn-dark">Детальніше</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <button class="btn btn-outline-dark">Ще товари</button>
+      </div>
+    </div>
+    <hr>
+    <h1>Бургери</h1>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-lg-4 mb-4">
+        <div class="product">
+          <img src="/Images/Burger/Снимок экрана 2023-04-12 203950.png" alt="Страва 4" style="height: 310px; width: 310px;">
+          <h5 class="mt-3">Дабл біф</h5>
+          <p class="text-muted">Ціна: 130грн</p>
+          <p>Бургер з подвійною котлетою</p>
+          <a href="#" class="btn btn-dark">Детальніше</a>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="product">
+          <img src="/Images/Burger/Снимок экрана 2023-04-12 225036.png" alt="Страва 5" style="height: 310px; width: 310px;">
+          <h5 class="mt-3">Курячий</h5>
+          <p class="text-muted">Ціна: 120грн</p>
+          <p>Бургер з курячою котлетою</p>
+          <a href="#" class="btn btn-dark">Детальніше</a>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="product">
+          <img src="/Images/Burger/Снимок экрана 2023-04-12 225109.png" alt="Страва 6" style="height: 310px; width: 310px;">
+          <h5 class="mt-3">Вегетаріанський</h5>
+          <p class="text-muted">Ціна: 150грн</p>
+          <p>Бургер без додавання м'яса</p>
+          <a href="#" class="btn btn-dark">Детальніше</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <button class="btn btn-outline-dark">Ще товари</button>
+      </div>
+    </div>
+    <hr>
+    <h1>Напої</h1>
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="product">
+          <img src="/Images/Drinks/Снимок экрана 2023-04-12 205212.png" alt="Страва 7" style="height: 310px; width: 310px;">
+          <h5 class="mt-3">Блю лагуна</h5>
+          <p class="text-muted">Ціна: 35грн</p>
+          <p>Синій освіжаючий напій</p>
+          <a href="#" class="btn btn-dark">Детальніше</a>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="product">
+          <img src="/Images/Drinks/Снимок экрана 2023-04-13 123347.png" alt="Страва 8" style="height: 310px; width: 310px;">
+          <h5 class="mt-3">Пепсі</h5>
+          <p class="text-muted">Ціна: 19грн</p>
+          <p>Класика</p>
+          <a href="#" class="btn btn-dark">Детальніше</a>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="product">
+          <img src="/Images/Drinks/Снимок экрана 2023-04-13 123417.png" alt="Страва 9" style="height: 310px; width: 310px;">
+          <h5 class="mt-3">Кока-кола</h5>
+          <p class="text-muted">Ціна: 20грн</p>
+          <p>Ще класичніша класика</p>
+          <a href="#" class="btn btn-dark">Детальніше</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <button class="btn btn-outline-dark">Ще товари</button>
+      </div>
+    </div>
+    <hr>
+    <h1>Категорії товарів</h1>
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Бургери</h5>
+            <p class="card-text">Спробуйте соковиті бургери</p>
+            <a href="#" class="btn btn-dark">Детальніше</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Суші</h5>
+            <p class="card-text">Екзотична страва з Японії</p>
+            <a href="#" class="btn btn-dark">Детальніше</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Напої</h5>
+            <p class="card-text">Чимось же треба запити</p>
+            <a href="#" class="btn btn-dark">Детальніше</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Десерти</h5>
+            <p class="card-text">Як же без десерту</p>
+            <a href="#" class="btn btn-dark">Детальніше</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Шаурма</h5>
+            <p class="card-text">Спробуйте соковиту шаурму</p>
+            <a href="#" class="btn btn-dark">Детальніше</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Піца</h5>
+            <p class="card-text">Італійська страва, ставша своєю</p>
+            <a href="#" class="btn btn-dark">Детальніше</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mb-5">
+    <h2 class="text-center">Про ресторан "LERO"</h2>
+    <p>Ресторан "LERO" - це місце, де ви можете насолодитися смачною кухнею та затишною атмосферою. Завдяки нашим талановитим кухарям, ми пропонуємо широкий вибір страв, які задовольнять навіть найвибагливіші смаки. Наші продукти завжди свіжі та якісні, а обслуговування на вищому рівні.</p>
+    <p>Також ресторан "LERO" регулярно проводить різноманітні акції та спеціальні пропозиції для наших постійних клієнтів. Слідкуйте за нашими новинами та не пропустіть можливість скористатися вигідними умовами!</p>
+    <p>Запрошуємо вас завітати до ресторану "LERO" та отримати незабутні враження від нашої кухні та обслуговування.</p>
+  </section>
+
+  <footer class="footer bg-dark text-light py-3">
+    <div class="container text-center">
+      <p>Ресторан LERO</p>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
